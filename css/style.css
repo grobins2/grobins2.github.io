@@ -1,6 +1,31 @@
-body{
-    background: #DDEDF4 url('img/crissXcross.png') repeat;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'colaborate-regularregular';
+    color: #fff;
+}
+
+p {
+    font-family: 'colaborate-regularregular';
+    color: #E8E8E8;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+        background: #B6C2E7 url('../img/crissXcross.png') repeat;
     background-attachment: fixed;
+}
+
+.section-splash {
+    font-family: 'colaborate-regularregular';
+
+    padding: 2em;
+}
+
+.section-specialties {
+    height: 275px;
+    width: 100%;
 }
 
 #splashimage {
@@ -11,12 +36,45 @@ body{
     background: url('../img/me.png') no-repeat;
 }
 
-.subsection {
-    height: 300px;
-}
-
 #footer {
     background-color: white;
     width: 100%;
     height: 200px;
+}
+
+.test1 {
+    background: url('../img/wwtptit.png') repeat;
+    height: 275px;
+    width: 100%;
+    border-top: 10px solid #527578;
+    color: #ADA692;
+    font-family: 'colaborate-regularregular';
+
+}
+
+.test1 h2 {
+    text-align: center;
+}
+
+.test2 {
+    background: url('../img/wwtptit.png') repeat;
+    height: 275px;
+    width: 100%;
+    border-top: 10px solid #84978F;
+    opacity: 0.98;
+}
+
+.test3 {
+    background: url('../img/wwtptit.png') repeat;
+    height: 275px;
+    width: 100%;
+    border-top: 10px solid #ADA692;
+}
+
+.test4 {
+    background: url('../img/wwtptit.png') repeat;
+    height: 275px;
+    width: 100%;
+    border-top: 10px solid #47423F;
+    opacity: 0.98;
 }
