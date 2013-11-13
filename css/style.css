@@ -3,6 +3,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+
 p {
     font-family: 'colaborate-regularregular';
     color: #E8E8E8;
@@ -27,6 +28,10 @@ body {
     height: 275px;
     width: 100%;
 }
+
+
+.section-specialties a:link {color:#ADA692;, text-decoration:none;}
+.section-specialties a:visited {color:#ADA692;, text-decoration:none;}
 
 #splashimage {
     height: 170px;
